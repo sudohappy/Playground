@@ -10,12 +10,12 @@ follow these guidelines:
 Folder Structure
 ----------------
 
-	Root Directory:
-	---------------
+Root Directory:
+
 - The root directory is open for collaborative work. Feel free to contribute, modify, or add files outside individual folders.
 
-	Personal Folders:
-	-----------------
+Personal Folders:	
+
 - After joining the collaboration, create a personal folder with your initials. This is your designated space to upload and manage your files.
 Please maintain your personal folder and refrain from mkaing changes to others' personal spaces without permission.
 
