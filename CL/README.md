@@ -5,8 +5,9 @@ Welcome to my corner of the playground. It contains various of ~~useless~~ files
 Contents
 --------
 
-Project 1
-	Creating and implementing signature
+**Project 1**
+-Creating and implementing signature
+
 	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 	⠀⢠⣤⣤⣤⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣤⣔⣭⠗⠚⢢⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀
 	⠀⠈⡇⡖⣲⣯⣩⡙⠻⠿⣷⠾⠫⠋⣻⣻⡉⠁⠈⣠⣴⣲⡿⣿⣿⣿⣧⠀⢃⡇⠀⠀⠀⠀⠀⠀⠀⠀
@@ -28,9 +29,9 @@ Project 1
 	⠀⠀⢀⣜⠟⡇⣿⣿⣿⣿⡿⣾⣿⠟⣱⣿⡏⣠⡎⣏⣿⢯⣿⣿⣿⣿⣿⣿⡏⠈⠀⠨⣷⠭⣟⡼⣿⡀
 	⠀⣠⣺⣋⣀⣷⣿⣿⣿⣿⣇⣿⣿⣧⣟⣿⣿⣿⢨⣿⢁⣾⣿⣿⣿⣿⣿⣳⠃⢀⡴⠊⠁⠀⠀⡇⣾⣧
 
-Project 2
-	Creating a simple game with said signature
-	- Guessing game
+**Project 2**
+- Creating a simple game with said signature
+- Guessing game
 
 
 The List of Listing List
