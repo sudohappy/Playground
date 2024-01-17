@@ -7,6 +7,9 @@ Welcome to the collab! To ensure a smooth and organized collaboration,
 follow these guidelines
 
 ## Table of CONTENTS :sunglasses:
+- [Folder Structure](#Folder Structure)
+- [Usage Guidelines](#Usage Guidelines)
+- [Resources](#Resources)
 - [Reminder](#Reminder)
 
 
@@ -41,6 +44,7 @@ Setup:
    - Command git commit -m 'Adding new file to repo'
    - Command git push origin main
 
+[Top](#Playground Collaboration Guidelines)
 
 ## **Usage Guidelines**
 ----------------
@@ -57,6 +61,7 @@ Feedback and Discussion:
 
 - Engage in discussions through issues or other communication channels. Provide constructive feedback and seek clarification when needed.
 
+[Top](#Playground Collaboration Guidelines)
 
 ## **Resources**
 ---------
@@ -69,6 +74,8 @@ Emoji's
 
 - https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 
+[Top](#Playground Collaboration Guidelines)
+
 ## **Reminder**
 --------
 
@@ -77,6 +84,7 @@ This is just an area to get a better understanding on how to collab with others.
 
 
 
+[Top](#Playground Collaboration Guidelines)
 
 ###
 
