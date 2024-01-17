@@ -1,13 +1,17 @@
 ###
 
-**Playground Collaboration Guidelines**
+# **Playground Collaboration Guidelines**
 -----------------------------------
 
 Welcome to the collab! To ensure a smooth and organized collaboration,
-follow these guidelines:
+follow these guidelines
+
+## Table of CONTENTS :sunglasses:
+- [Reminder](#Reminder)
 
 
-**Folder Structure**
+
+## **Folder Structure**
 ----------------
 
 Root Directory:
@@ -38,7 +42,7 @@ Setup:
    - Command git push origin main
 
 
-**Usage Guidelines**
+## **Usage Guidelines**
 ----------------
 
 README File:
@@ -54,7 +58,7 @@ Feedback and Discussion:
 - Engage in discussions through issues or other communication channels. Provide constructive feedback and seek clarification when needed.
 
 
-**Resources**
+## **Resources**
 ---------
 
 Basic writing and formatting syntax
@@ -65,7 +69,7 @@ Emoji's
 
 - https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 
-**Reminder**
+## **Reminder**
 --------
 
 This is just an area to get a better understanding on how to collab with others. Feel free to upload useless files. Don't forget to have fun.
@@ -75,4 +79,5 @@ This is just an area to get a better understanding on how to collab with others.
 
 
 ###
+
 
