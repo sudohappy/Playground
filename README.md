@@ -7,8 +7,8 @@ Welcome to the collab! To ensure a smooth and organized collaboration,
 follow these guidelines
 
 ## Table of CONTENTS :sunglasses:
-- [Folder Structure](#Folder)
-- [Usage Guidelines](#Usage)
+- [Folder Structure](#Folder-Structure)
+- [Usage Guidelines](#Usage-Guidelines)
 - [Resources](#Resources)
 - [Reminder](#Reminder)
 
@@ -84,7 +84,7 @@ This is just an area to get a better understanding on how to collab with others.
 
 
 
-[Top](#Playground)
+[Top](#Playground-Collaboration-Guidelines)
 
 ###
 
