@@ -48,6 +48,16 @@ Usage Guidelines
 	------------------------
 		Engage in discussions through issues or other communication channels. Provide constructive feedback and seek clarification when needed.
 
+
+Resources
+---------
+
+Basic writing and formatting syntax
+	- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images
+
+Emoji's
+	- https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+
 Reminder
 --------
 

@@ -98,9 +98,9 @@ while true; do
 
         # Check if the guess is correct
         if (( guess == secret_number )); then
-            echo "*************************************************"
+            echo "****************************************************************"
             echo "|  Congratulations! You guessed the number in $attempts attempts.  |"
-            echo "*************************************************"
+            echo "****************************************************************"
             break
         elif (( guess < secret_number )); then
             if (( secret_number - guess <= 5 )); then
