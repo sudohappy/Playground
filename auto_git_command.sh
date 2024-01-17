@@ -42,7 +42,8 @@ perform_pull() {
         echo -e "\t2. Git Fetch (Download Only)"
         echo -e "\t3. Pull specific files"
         echo -e "\t4. Exit to Main Menu"
-        read -p "\tEnter your choice (1/2/3/4): " pull_option
+        echo
+        read -p "Enter your choice (1/2/3/4): " pull_option
 
         case $pull_option in
             1)
@@ -99,8 +100,8 @@ perform_add() {
         echo -e "\n\n\tSelect add option:"
         echo -e "\t1. Add all changes"
         echo -e "\t2. Add specific files"
-        echo -e "\t3. Exit to Main Menu"
-        read -p "\tEnter your choice (1/2/3): " add_option
+        echo -e "\t3. Exit to Main Menu\n"
+        read -p "Enter your choice (1/2/3): " add_option
 
         case $add_option in
             1)
@@ -181,6 +182,7 @@ perform_commit() {
             echo "3. Update"
             echo "4. Deletion"
             echo "5. Exit to Main Menu"
+            echo
             read -p "Enter the option for your commit message: " commit_option
 
             case $commit_option in
@@ -236,7 +238,8 @@ perform_push() {
         echo -e "\t1. Git Push (Upload)"
         echo -e "\t2. Push specific files"
         echo -e "\t3. Exit to Main Menu"
-        read -p "\tEnter your choice (1/2/3): " push_option
+        echo
+        read -p "\tEnter your choice (1/2/3): \n" push_option
 
         case $push_option in
             1)
