@@ -54,11 +54,11 @@ Resources
 
 Basic writing and formatting syntax
 
-	- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images
+- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images
 
 Emoji's
 
-	- https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+- https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 
 Reminder
 --------
