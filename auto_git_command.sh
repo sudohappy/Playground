@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script to automate Git operations
-# Version 16.8
+# Version 19.3
 
 # Configuration Variables
 remote_name="origin"
@@ -34,28 +34,119 @@ configure_remote_branch() {
     fi
 }
 
-# Function to perform Git pull
+# Function to perform Git pull or fetch
 perform_pull() {
-    git pull $remote_name $branch_name
+    echo -e "\n\n\tSelect pull option:"
+    echo -e "\t1. Git Pull (Download and Merge)"
+    echo -e "\t2. Git Fetch (Download Only)"
+    echo -e "\t3. Pull specific files"
+    read -p "\tEnter your choice (1/2/3): " pull_option
 
-    if (( $? != 0 )); then
-        echo -e "\n\n\tError: 'git pull' failed.\n\n."
-        exit 1
-    fi
+    case $pull_option in
+        1)
+            git pull $remote_name $branch_name
+            if (( $? != 0 )); then
+                echo -e "\n\n\tError: 'git pull' failed.\n\n."
+                exit 1
+            fi
+            ;;
+        2)
+            git fetch $remote_name $branch_name
+            if (( $? != 0 )); then
+                echo -e "\n\n\tError: 'git fetch' failed.\n\n."
+                exit 1
+            fi
+            ;;
+        3)
+            perform_pull_specific_files
+            ;;
+        *)
+            echo -e "\n\n\tInvalid choice. Exiting.\n\n."
+            exit 1
+            ;;
+    esac
 
     display_changes "after pulling"
 }
 
-# Function to perform Git add
-perform_add() {
-    git add .
+# Function to pull specific files
+perform_pull_specific_files() {
+    echo -e "\n\n\tPull specific files:"
+    read -p "Enter the path to the file(s) you want to pull (space-separated): " files_to_pull
+
+    git checkout -- $files_to_pull
 
     if (( $? != 0 )); then
-        echo -e "\n\n\tError: 'git add .' failed.\n\n."
+        echo -e "\n\n\tError: 'git checkout' failed.\n\n."
         exit 1
     fi
 
+    echo -e "\n\n\tFiles pulled successfully."
+    display_changes "after pulling specific files"
+}
+
+# Function to perform Git add
+perform_add() {
+    echo -e "\n\n\tSelect add option:"
+    echo -e "\t1. Add all changes"
+    echo -e "\t2. Add specific files"
+    read -p "\tEnter your choice (1/2): " add_option
+
+    case $add_option in
+        1)
+            git add .
+
+            if (( $? != 0 )); then
+                echo -e "\n\n\tError: 'git add .' failed.\n\n."
+                exit 1
+            fi
+            ;;
+        2)
+            read -p "Enter the path to the file(s) you want to add (space-separated): " files_to_add
+
+            git add $files_to_add
+
+            if (( $? != 0 )); then
+                echo -e "\n\n\tError: 'git add' failed.\n\n."
+                exit 1
+            fi
+            ;;
+        *)
+            echo -e "\n\n\tInvalid choice. Exiting.\n\n."
+            exit 1
+            ;;
+    esac
+
     display_changes "after staging"
+}
+
+# Function to push specific files
+perform_push_specific_files() {
+    echo -e "\n\n\tPush specific files:"
+    read -p "Enter the path to the file(s) you want to push (space-separated): " files_to_push
+
+    git add $files_to_push
+
+    if (( $? != 0 )); then
+        echo -e "\n\n\tError: 'git add' failed.\n\n."
+        exit 1
+    fi
+
+    git commit -m "Commit specific files"
+
+    if (( $? != 0 )); then
+        echo -e "\n\n\tError: 'git commit' failed.\n\n."
+        exit 1
+    fi
+
+    git push $remote_name $branch_name
+
+    if (( $? != 0 )); then
+        echo -e "\n\n\tError: 'git push' failed.\n\n."
+        exit 1
+    fi
+
+    display_changes "after pushing specific files"
 }
 
 # Function to perform Git commit
@@ -67,7 +158,8 @@ perform_commit() {
         echo -e "\nEnter your commit message option:"
         echo "1. Upload"
         echo "2. Modify"
-        echo "3. Deletion"
+        echo "3. Update"
+        echo "4. Deletion"
         read -p "Enter the option for your commit message: " commit_option
 
         case $commit_option in
@@ -78,6 +170,9 @@ perform_commit() {
                 commit_type="Modify"
                 ;;
             3)
+                commit_type="Update"
+                ;;
+            4)
                 commit_type="Deletion"
                 ;;
             *)
@@ -110,21 +205,32 @@ perform_commit() {
 
 # Function to perform Git push
 perform_push() {
-    echo "Executing: git push -u $remote_name $branch_name"
-    git push -u $remote_name $branch_name
+    echo -e "\n\n\tSelect push option:"
+    echo -e "\t1. Git Push (Upload)"
+    echo -e "\t2. Push specific files"
+    read -p "\tEnter your choice (1/2): " push_option
 
-    if (( $? == 0 )); then
-        echo -e "\n\n\tGit push successful\n\n."
-    else
-        echo -e "\n\n\tError: 'Git push' failed.\n\n."
-        echo -e "\n\n\tDetailed information:"
-        git status
-        git log -n 1
-        exit 1
-    fi
+    case $push_option in
+        1)
+            git push $remote_name $branch_name
+            if (( $? != 0 )); then
+                echo -e "\n\n\tError: 'git push' failed.\n\n."
+                exit 1
+            fi
+            ;;
+        2)
+            perform_push_specific_files
+            ;;
+        *)
+            echo -e "\n\n\tInvalid choice. Exiting.\n\n."
+            exit 1
+            ;;
+    esac
+
+    display_changes "after pushing"
 }
 
-# Main
+# Main Loop
 while true; do
     display_configuration
 
@@ -164,4 +270,3 @@ while true; do
             ;;
     esac
 done
-
