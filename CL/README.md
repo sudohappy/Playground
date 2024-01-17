@@ -6,7 +6,7 @@ Contents
 --------
 
 **Project 1**
--Creating and implementing signature
+- Creating and implementing signature
 
 	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 	⠀⢠⣤⣤⣤⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣤⣔⣭⠗⠚⢢⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀
