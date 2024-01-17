@@ -34,10 +34,9 @@ while true; do
 
     # Loop to allow three attempts to choose the difficulty level
     while [ $attempts_difficulty -lt 3 ]; do
-        # Prompt the user for the difficulty level
+
         read -p "Choose difficulty (easy/hard): " difficulty
 
-        # Validate the input
         if [[ "$difficulty" == "easy" || "$difficulty" == "hard" ]]; then
             break
         else
@@ -65,7 +64,7 @@ while true; do
         echo "================================================================="
     fi
 
-    # Generate a random number between 1 and 100
+    # Generator
     secret_number=$((RANDOM % 100 + 1))
 
     attempts=0
@@ -88,7 +87,7 @@ while true; do
             exit 0
         fi
 
-        # Validate input as a number
+        # Validate input
         if [[ ! "$guess" =~ ^[0-9]+$ ]]; then
             echo "Careful on the input. Please enter a valid number."
             continue
