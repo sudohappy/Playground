@@ -44,7 +44,7 @@ Setup:
    - Command git commit -m 'Adding new file to repo'
    - Command git push origin main
 
-[Top](#Playground)
+[Top](#Playground-Collaboration-Guidelines)
 
 ## **Usage Guidelines**
 ----------------
@@ -61,7 +61,7 @@ Feedback and Discussion:
 
 - Engage in discussions through issues or other communication channels. Provide constructive feedback and seek clarification when needed.
 
-[Top](#Playground)
+[Top](#Playground-Collaboration-Guidelines)
 
 ## **Resources**
 ---------
@@ -74,7 +74,7 @@ Emoji's
 
 - https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 
-[Top](#Playground)
+[Top](#Playground-Collaboration-Guidelines)
 
 ## **Reminder**
 --------
