@@ -1,0 +1,26 @@
+#!/bin/bash
+
+source signature.sh
+
+generate_password() {
+    upper_case="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    lower_case="abcdefghijklmnopqrstuvwxyz"
+    numbers="0123456789"
+    special_characters="!@#$%^&*()_-+=<>?/[]{}|"
+
+    all_characters="$upper_case$lower_case$numbers$special_characters"
+
+    read -p "Enter password length (min 8, max 16): " password_length
+
+    if [[ $password_length -ge 8 && $password_length -le 16 ]]; then
+        password=$(echo "$all_characters" | fold -w1 | shuf | tr -d '\n' | head -c$password_length)
+        echo "$signature"
+        echo "Generated Password: $password"
+    else
+        echo "$signature"
+        echo "Invalid password length. Please enter a value between 8 and 16."
+    fi
+}
+
+generate_password
+
