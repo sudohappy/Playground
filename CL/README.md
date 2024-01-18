@@ -48,4 +48,6 @@ The List of Listing List
 - [ ] Automate / Automation
 - [ ] Milk :milk_glass:
 - [x] Creating a Branch
+- [x] Creating Issue
+- [x] Creata a Pull request
 
