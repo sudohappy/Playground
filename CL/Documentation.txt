@@ -2,7 +2,14 @@
 
 Example: Updating - Raccoon Branch 1a
 =============================================================
+Updating - Raccoon Branch 1a                      Jan 18 2024
+Added another line in the file 1
+New entry to README
+=============================================================
 Updating - Raccoon Branch 1b                      Jan 18 2024
 Updating the readme, added two new entries
 Adding new file to keep track of updates in this (Raccoon)
+=============================================================
+Updating - Raccoon Branch 1c
+
 =============================================================
