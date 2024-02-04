@@ -1,0 +1,17 @@
+<Type of Upload> - < Current Branch > <Number-Letter scheme>
+
+Example: Updating - Raccoon Branch 1a
+=============================================================
+Updating - Raccoon Branch 1a                      2024 Jan 18
+Added another line in the file 1
+New entry to README
+=============================================================
+Updating - Raccoon Branch 1b                      2024 Jan 18
+Updating the readme, added two new entries
+Adding new file to keep track of updates in this (Raccoon)
+=============================================================
+Updating - Raccoon Branch 1c			   2024 Feb 4
+Updating the branch
+Adding new directory and 3 python files in personal directory
+=============================================================
+Updating - Raccoon Branch 1d
