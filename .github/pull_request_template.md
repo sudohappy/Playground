@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# Description
+=======
 # Descriptions
+>>>>>>> 88caf7fd7040256dd2f336dc8c8e7be367be81dc
 
 Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
@@ -15,8 +19,15 @@ Please delete options that are not relevant.
 
 # How Has This Been Tested?
 
+<<<<<<< HEAD
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+
+- [ ] Test A
+- [ ] Test B
+=======
 - [ ] Yes
 - [ ] No
+>>>>>>> 88caf7fd7040256dd2f336dc8c8e7be367be81dc
 
 **Test Configuration**:
 * Firmware version:
