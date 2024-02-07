@@ -1,0 +1,40 @@
+/* styles.css */
+/*Version 5.2 */
+
+body {
+    color: orange;
+    background: url('Sushicat.png') no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.60); /* Adjust the alpha value for darkness */
+}
+
+
+@keyframes rotateWords {
+    0% {
+        transform: rotate(90deg) translate(25rem, 25rem) rotate(-90deg); /* Adjusted starting position */
+        text-shadow: 2px 2px 5px rgba(255, 165, 0, 0.5);
+    }
+    100% {
+        transform: rotate(360deg) translateX(10rem) rotate(-360deg);
+        text-shadow: 5px 5px 20px rgba(255, 165, 0, 0.8);
+    }
+}
+
+h1, p {
+    animation: rotateWords 10s linear infinite;
+    position: relative;
+}
