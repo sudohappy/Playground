@@ -16,17 +16,29 @@
         body {
             text-align: center;
             font-family: Arial, sans-serif;
+            font-weight: bold;
+            color:aliceblue;
+            background-image: url(logo.png);
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-blend-mode: multiply;
+            background-color: lightslategray;
         }
+
         button {
             font-size: 16px;
             margin: 10px;
             padding: 5x 10px;
+
         }
 
+        button:hover {
+            background-color:firebrick;
+        }
     </style>
 </head>
 <body>
-
+    <img src="favicon.ico" alt="DnD Image" class="icon">
     <h1>Dungeons & Dragons Die Roller</h1>
 
     <button onclick="rollDice(4)">Roll D4</button>
