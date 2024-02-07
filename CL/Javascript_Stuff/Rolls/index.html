@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sudo Happy">
+    <meta name="description" content="Simple Javascript Template">
+    <meta name="keywords" content="Javascript, D20rolls">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Dungeons & Dungeons Rolls</title>
+
+    <style>
+
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            font-size: 16px;
+            margin: 10px;
+            padding: 5x 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Dungeons & Dragons Die Roller</h1>
+
+    <button onclick="rollDice(4)">Roll D4</button>
+    <button onclick="rollDice(6)">Roll D6</button>
+    <button onclick="rollDice(8)">Roll D8</button>
+    <button onclick="rollDice(10)">Roll D10</button>
+    <button onclick="rollDice(12)">Roll D12</button>
+    <button onclick="rollDice(20)">Roll D20</button>
+    <button onclick="rollPercentile()">Roll D100</button>
+
+    <p id="result"></p>
+
+    <!-- Your JavaScript code goes here -->
+
+    <script>
+
+        function rollDice(sides) {
+            var result = Math.floor(Math.random() * sides) + 1;
+            document.getElementById('result').innerText = 'Rolling a D' + sides + ' and got: ' + result;
+        }
+
+        function rollPercentile() {
+            var ones = Math.floor(Math.random() * 10);
+            var tens = Math.floor(Math.random() * 10);
+            var result = (tens === 0 ? 10 : tens) * 10 + ones;
+            document.getElementById('result').innerText = 'Rolling Percentile: ' + result;
+        }
+
+    </script>
+
+</body>
+</html>
+
