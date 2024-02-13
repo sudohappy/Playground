@@ -37,18 +37,17 @@ Welcome to the collab! To ensure a smooth and organized collaboration, follow th
 </div><br>
 
 ## **Folder Structure**
-----------------
 
-Root Directory:
+**Root Directory**:
 
 - The root directory is open for collaborative work. Feel free to contribute, modify, or add files outside individual folders.
 
-Personal Folders:	
+**Personal Folders**:	
 
 - After joining the collaboration, create a personal folder with your initials. This is your designated space to upload and manage your files.
 Please maintain your personal folder and refrain from mkaing changes to others' personal spaces without permission.
 
-Setup:
+**Setup**:
 
 1. Create a empty folder. (EX: Playground)
    - Command git init
@@ -66,48 +65,38 @@ Setup:
    - Command git commit -m 'Adding new file to repo'
    - Command git push origin main
 
-[Top](#Playground-Collaboration-Guidelines)
+<h5 align='right'><a href='#top'>Back to Top</a></h5>
 
 ## **Usage Guidelines**
-----------------
 
-README File:
+**README File**:
 
 - The README file serves as an introduction and guideline. Please review it to understand the collaborative process.
 
-Version Control:
+**Version Control**:
 
 - Use version control best practices, such as branching and pull requests, to manage collaborative changes effectively.
 
-Feedback and Discussion:
+**Feedback and Discussion**:
 
 - Engage in discussions through issues or other communication channels. Provide constructive feedback and seek clarification when needed.
 
-[Top](#Playground-Collaboration-Guidelines)
+<h5 align='right'><a href='#top'>Back to Top</a></h5>
 
 ## **Resources**
----------
 
-Basic writing and formatting syntax
+<a href='https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images'>Basic writing and formatting syntax</a>
 
-- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images
+<a href='https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md'>Adding Emoji's to README file</a>
 
-Emoji's
-
-- https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
-
-[Top](#Playground-Collaboration-Guidelines)
+<h5 align='right'><a href='#top'>Back to Top</a></h5>
 
 ## **Reminder**
---------
 
 This is just an area to get a better understanding on how to collab with others. Feel free to upload useless files. Don't forget to have fun.
 
 
+<h5 align='right'><a href='#top'>Back to Top</a></h5>
 
-
-[Top](#Playground-Collaboration-Guidelines)
-
-###
 
 
