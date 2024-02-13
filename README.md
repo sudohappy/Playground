@@ -1,16 +1,47 @@
 ###
 
-# **Playground Collaboration Guidelines**
------------------------------------
+<a name='top'></a>
+
+<h2 align='center'>Playground Collaboration Guidelines</h2>
+
 
 Welcome to the collab! To ensure a smooth and organized collaboration,
 follow these guidelines
 
+<br>
+
+<!-- The Almight Dancing GIF -->
+
+<div align='center'>
+	<a href='https://github.com/sudohappy/CL'>
+		<img src='img/dance.gif' alt='Anime Girl Doing the FFXIV dance' height='179' width='160'>
+	</a>
+</div>
+<br>
+
+<!-- Out with the Old and IN WITH THE NEW
 ## Table of CONTENTS :sunglasses:
 - [Folder Structure](#Folder-Structure)
 - [Usage Guidelines](#Usage-Guidelines)
 - [Resources](#Resources)
 - [Reminder](#Reminder)
+-->
+
+
+<!-- The New New Table of content -->
+
+<div align='center'>
+	<details>
+		<summary>Table of Contents</summary>
+		<ul>
+			<a href='#Folder-Structure'>Folder Structure</a><br>
+			<a href='#Usage-Guidelines'>Usage Guidelines</a><br>
+			<a href='#Resources'>Resources</a><br>
+			<a href='#Reminder'>Reminder</a><br>
+		</ul>
+
+	</details>
+</div>
 
 
 

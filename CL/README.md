@@ -6,7 +6,7 @@ Contents
 --------
 
 **Project 1**
-- Creating and implementing signature **(Don't full screen)**
+- Creating and implementing signature ~~**(Don't full screen)**~~
 
 <div align='center'>
 	<h3>
