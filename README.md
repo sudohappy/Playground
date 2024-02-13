@@ -2,7 +2,7 @@
 
 <h2 align='center'>Playground Collaboration Guidelines</h2>
 
-<a align='center'>Welcome to the collab! To ensure a smooth and organized collaboration, follow these guidelines</a>
+<p align='center'>Welcome to the collab! To ensure a smooth and organized collaboration, follow these guidelines</p>
 
 
 <br>
