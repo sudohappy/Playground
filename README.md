@@ -130,7 +130,7 @@ This is just an area to get a better understanding on how to collab with others.
 
 
 
-<h4 align='center'>README UNDER CONSTRUCTION</h4><br>
+<h4 align='center'>STILL UNDER CONSTRUCTION</h4><br>
 
 <div align='center'>
 	<a href='https://github.com/sudohappy/Playground'>
