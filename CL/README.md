@@ -4,7 +4,7 @@
 
 <h2 align='center'>Contents</h2>
 
-<div>
+<div align='center'>
 	<a href='https://github.com/sudohappy/Playground/CL'>
 		<img src='img/dance.gif' alt='Dancing Gif' height='179' width='160'>
 	</a>
