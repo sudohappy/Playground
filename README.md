@@ -1,11 +1,9 @@
-###
-
 <a name='top'></a>
 
 <h2 align='center'>Playground Collaboration Guidelines</h2>
 
-
 Welcome to the collab! To ensure a smooth and organized collaboration, follow these guidelines
+
 
 <br>
 
@@ -18,7 +16,6 @@ Welcome to the collab! To ensure a smooth and organized collaboration, follow th
 </div>
 
 <br>
-
 <!-- Out with the Old and IN WITH THE NEW
 ## Table of CONTENTS :sunglasses:
 - [Folder Structure](#Folder-Structure)
@@ -26,10 +23,7 @@ Welcome to the collab! To ensure a smooth and organized collaboration, follow th
 - [Resources](#Resources)
 - [Reminder](#Reminder)
 -->
-
-
 <!-- The New New Table of content -->
-
 <div align='center'>
 	<details>
 		<summary>Table of Contents</summary>
@@ -39,11 +33,8 @@ Welcome to the collab! To ensure a smooth and organized collaboration, follow th
 			<a href='#Resources'>Resources</a><br>
 			<a href='#Reminder'>Reminder</a><br>
 		</ul>
-
 	</details>
-</div>
-
-
+</div><br>
 
 ## **Folder Structure**
 ----------------
