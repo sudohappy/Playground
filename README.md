@@ -59,8 +59,6 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 
 - Don't hesitate to ask anyone in the collaboration for assistance; I'm sure everyone is eager to help out when needed
 
-<sub>- sudohappy</sub>
-
 **Setup**:
 
 1. Create a empty folder. (EX: Playground)
