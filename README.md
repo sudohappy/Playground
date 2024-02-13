@@ -58,6 +58,7 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 **Questions/Concerns**:
 
 - Don't hesitate to ask anyone in the collaboration for assistance; I'm sure everyone is eager to help out when needed
+
 <sub>- sudohappy</sub>
 
 **Setup**:
