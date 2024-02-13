@@ -120,8 +120,8 @@ This is just an area to get a better understanding on how to collab with others.
 <h4 align='center'>README UNDER CONSTRUCTION</h4><br>
 
 <div align='center'>
-	<a href='https://github.com/sudohappy/Playground/CL'>
-		<img src='img/rage.gif' alt='Angry Face' heigh='100' width='100'
+	<a href='https://github.com/sudohappy/Playground'>
+		<img src='CL/img/rage.gif' alt='Angry Face' heigh='100' width='100'>
 	</a>
 </div>
 
