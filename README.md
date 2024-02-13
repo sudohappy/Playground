@@ -58,12 +58,29 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
    - **Example:** Name John Doe therefore creating a folder JD
    - Command git add "your folder name"
    - **Example:** git add "JD"
+      - Add preps the files for commiting
+      - using . add all changes you've done in the local machine
    - Command git commit -m 'Adding new directory to repo'
+      - The option -m specify a commit message
 
-3. Create a README.md in your personal folder --> git add "your folder name"/README.md
+3. Create a README.md in your personal folder --> git add "your folder name"/README.md and uploading it to the remote repo
    - **Example:** git add "JD/READ.md" 
    - Command git commit -m 'Adding new file to repo'
+      - The option -m specify a commit message
    - Command git push origin main
+      - Push means upload
+      - Origin means default name for the repo or something along those lines
+      - Main is the name of the branch
+
+4. Creating a Branch for you to work in and uploading it to the remote repo
+   - Command git checkout -b branchName
+   - **Example:** git checkout -b Canada
+      - The option '-b' in this command enables you to name the branch with a specified name
+      - Now you created a branch named Canada on your local machine
+      - To verify, use the command git branch to see all the branches on your local machine
+   - Command git push origin branchName
+   - **Example:** git push origin Canada
+      - This commands uploads the branch to the remote repo
 
 <h5 align='right'><a href='#top'>Back to Top</a></h5>
 
@@ -100,3 +117,4 @@ This is just an area to get a better understanding on how to collab with others.
 
 
 
+<h4 align='center'>README UNDER CONSTRUCTION</h4>
