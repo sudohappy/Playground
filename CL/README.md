@@ -8,6 +8,8 @@ Contents
 **Project 1**
 - Creating and implementing signature **(Don't full screen)**
 
+<div align='center'>
+
 	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 	⠀⢠⣤⣤⣤⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣤⣔⣭⠗⠚⢢⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀
 	⠀⠈⡇⡖⣲⣯⣩⡙⠻⠿⣷⠾⠫⠋⣻⣻⡉⠁⠈⣠⣴⣲⡿⣿⣿⣿⣧⠀⢃⡇⠀⠀⠀⠀⠀⠀⠀⠀
@@ -28,6 +30,9 @@ Contents
 	⠀⠀⠀⠀⣼⣰⢻⣿⣿⡏⣧⢸⣿⡷⡿⠋⣿⡯⠋⡴⣳⣷⣿⣿⣿⡻⢷⣿⣿⢟⡟⢆⠈⢫⡻⣿⣷⠀
 	⠀⠀⢀⣜⠟⡇⣿⣿⣿⣿⡿⣾⣿⠟⣱⣿⡏⣠⡎⣏⣿⢯⣿⣿⣿⣿⣿⣿⡏⠈⠀⠨⣷⠭⣟⡼⣿⡀
 	⠀⣠⣺⣋⣀⣷⣿⣿⣿⣿⣇⣿⣿⣧⣟⣿⣿⣿⢨⣿⢁⣾⣿⣿⣿⣿⣿⣳⠃⢀⡴⠊⠁⠀⠀⡇⣾⣧
+
+
+</div>
 
 **Project 2**
 - Creating a simple game with said signature
