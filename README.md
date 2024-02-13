@@ -50,37 +50,37 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 **Setup**:
 
 1. Create a empty folder. (EX: Playground)
-   - Command git init
-   - Command git remote add origin https://github.com/sudohappy/Playground.git
-   - Command git fetch origin main --> You should see the files on GitHub on your device
+   - Command git init<br>
+   - Command git remote add origin https://github.com/sudohappy/Playground.git<br>
+   - Command git fetch origin main --> You should see the files on GitHub on your device<br>
 
 2. Make Personal Folders --> mkdir "your folder name using your first 2 initials"
-   - **Example:** Name John Doe therefore creating a folder JD
-   - Command git add "your folder name"
+   - **Example:** Name John Doe therefore creating a folder JD<br>
+   - Command git add "your folder name"<br>
    - **Example:** git add "JD"
       - Add preps the files for commiting
-      - using . add all changes you've done in the local machine
+      - using . add all changes you've done in the local machine<br>
    - Command git commit -m 'Adding new directory to repo'
-      - The option -m specify a commit message
+      - The option -m specify a commit message<br>
 
 3. Create a README.md in your personal folder --> git add "your folder name"/README.md and uploading it to the remote repo
-   - **Example:** git add "JD/READ.md" 
+   - **Example:** git add "JD/READ.md" <br>
    - Command git commit -m 'Adding new file to repo'
-      - The option -m specify a commit message
+      - The option -m specify a commit message<br>
    - Command git push origin main
       - Push means upload
       - Origin means default name for the repo or something along those lines
-      - Main is the name of the branch
+      - Main is the name of the branch<br>
 
 4. Creating a Branch for you to work in and uploading it to the remote repo
-   - Command git checkout -b branchName
+   - Command git checkout -b branchName<br>
    - **Example:** git checkout -b Canada
       - The option '-b' in this command enables you to name the branch with a specified name
       - Now you created a branch named Canada on your local machine
-      - To verify, use the command git branch to see all the branches on your local machine
-   - Command git push origin branchName
+      - To verify, use the command git branch to see all the branches on your local machine<br>
+   - Command git push origin branchName<br>
    - **Example:** git push origin Canada
-      - This commands uploads the branch to the remote repo
+      - This commands uploads the branch to the remote repo<br>
 
 <h5 align='right'><a href='#top'>Back to Top</a></h5>
 
@@ -117,4 +117,11 @@ This is just an area to get a better understanding on how to collab with others.
 
 
 
-<h4 align='center'>README UNDER CONSTRUCTION</h4>
+<h4 align='center'>README UNDER CONSTRUCTION</h4><br>
+
+<div align='center'>
+	<a href='https://github.com/sudohappy/Playground/CL'>
+		<img src='img/rage.gif' alt='Angry Face' heigh='100' width='100'
+	</a>
+</div>
+
