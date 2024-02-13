@@ -1,14 +1,12 @@
 # Welcome to my corner of the playground. It contains various of ~~useless~~ files and projects. :upside_down_face:
-
-
-
-<h2 align='center'>Contents</h2>
-
+<br>
 <div align='center'>
 	<a href='https://github.com/sudohappy/Playground/CL'>
 		<img src='img/dance.gif' alt='Dancing Gif' height='179' width='160'>
 	</a>
 </div>
+
+<h2 align='center'>Contents</h2>
 
 
 **Project 1**
