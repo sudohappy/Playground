@@ -47,18 +47,17 @@
 - After joining the collaboration, create a personal folder with your initials. This is your designated space to upload and manage your files.
 Please maintain your personal folder and refrain from mkaing changes to others' personal spaces without permission.
 
-**Branch**
+**Branch**:
 
 - After creating and uploading the branch to the remote repo, ensure that you switch to that branch when working on any task by using the command 'git checkout branchName' before starting
 
-**Pull Request**
+**Pull Request**:
 
 - When you're ready to merge your branch into the main branch, ensure your branch is prepared for merging, then initiate a pull request on github
 
-**Questions/Concerns**
+**Questions/Concerns**:
 
 - Don't hesitate to ask anyone in the collaboration for assistance; I'm sure everyone is eager to help out when needed
-
 <sub>- sudohappy</sub>
 
 **Setup**:
