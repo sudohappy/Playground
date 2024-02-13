@@ -1,12 +1,18 @@
-Welcome to my corner of the playground. It contains various of ~~useless~~ files and projects. :upside_down_face:
---------
+# Welcome to my corner of the playground. It contains various of ~~useless~~ files and projects. :upside_down_face:
 
 
-Contents
---------
+
+<h2 align='center'>Contents</h2>
+
+<div>
+	<a href='https://github.com/sudohappy/Playground/CL'>
+		<img src='img/dance.gif' alt='Dancing Gif' height='179' width='160'>
+	</a>
+</div>
+
 
 **Project 1**
-- Creating and implementing signature ~~**(Don't full screen)**~~
+- Creating and implementing signature ~~**(Don't full screen)**~~ **fixed**
 
 <div align='center'>
 	<h3>
@@ -33,10 +39,13 @@ Contents
 	</h3>
 </div>
 
+- [x] Completed
+
 **Project 2**
 - Creating a simple game with said signature
 - Guessing game
 
+- [x] Completed
 
 The List of Listing List
 -----------------------
