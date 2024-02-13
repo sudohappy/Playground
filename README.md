@@ -5,18 +5,18 @@
 <h2 align='center'>Playground Collaboration Guidelines</h2>
 
 
-Welcome to the collab! To ensure a smooth and organized collaboration,
-follow these guidelines
+Welcome to the collab! To ensure a smooth and organized collaboration, follow these guidelines
 
 <br>
 
 <!-- The Almight Dancing GIF -->
 
 <div align='center'>
-	<a href='https://github.com/sudohappy/CL'>
-		<img src='img/dance.gif' alt='Anime Girl Doing the FFXIV dance' height='179' width='160'>
+	<a href='https://github.com/sudohappy/Playground'>
+		<img src='CL/img/dance.gif' alt='Anime Girl dance' height='179' width='160'>
 	</a>
 </div>
+
 <br>
 
 <!-- Out with the Old and IN WITH THE NEW
