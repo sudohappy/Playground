@@ -28,7 +28,7 @@
 	<details>
 		<summary>Table of Contents</summary>
 		<ul>
-			<a href='#Folder-Structure'>Folder Structure</a><br>
+			<a href='#Quick-Rundown'>Quick Rundown</a><br>
 			<a href='#Usage-Guidelines'>Usage Guidelines</a><br>
 			<a href='#Resources'>Resources</a><br>
 			<a href='#Reminder'>Reminder</a><br>
@@ -36,7 +36,7 @@
 	</details>
 </div><br>
 
-## **Folder Structure**
+## **Quick Rundown**
 
 **Root Directory**:
 
@@ -47,23 +47,62 @@
 - After joining the collaboration, create a personal folder with your initials. This is your designated space to upload and manage your files.
 Please maintain your personal folder and refrain from mkaing changes to others' personal spaces without permission.
 
+**Branch**:
+
+- After creating and uploading the branch to the remote repo, ensure that you switch to that branch when working on any task by using the command 'git checkout branchName' before starting
+
+**Pull Request**:
+
+- When you're ready to merge your branch into the main branch, ensure your branch is prepared for merging, then initiate a pull request on github
+
+**Questions/Concerns**:
+
+- Don't hesitate to ask anyone in the collaboration for assistance; I'm sure everyone is eager to help out when needed
+
 **Setup**:
 
 1. Create a empty folder. (EX: Playground)
    - Command git init
+
    - Command git remote add origin https://github.com/sudohappy/Playground.git
+
    - Command git fetch origin main --> You should see the files on GitHub on your device
 
 2. Make Personal Folders --> mkdir "your folder name using your first 2 initials"
    - **Example:** Name John Doe therefore creating a folder JD
-   - Command git add "your folder name"
-   - **Example:** git add "JD"
-   - Command git commit -m 'Adding new directory to repo'
 
-3. Create a README.md in your personal folder --> git add "your folder name"/README.md
-   - **Example:** git add "JD/READ.md" 
+   - Command git add "your folder name"
+
+   - **Example:** git add "JD"
+      - Add preps the files for commiting
+      - using . add all changes you've done in the local machine (EX: git add .)
+
+   - Command git commit -m 'Adding new directory to repo'
+      - The option -m specify a commit message
+
+3. Create a README.md in your personal folder --> git add "your folder name"/README.md and uploading it to the remote repo
+   - **Example:** git add "JD/READ.md" <br>
+
    - Command git commit -m 'Adding new file to repo'
+      - The option -m specify a commit message<br>
+
    - Command git push origin main
+      - Push means upload
+      - Origin means default name for the repo or something along those lines
+      - Main is the name of the branch<br>
+
+4. Creating a Branch for you to work in and uploading it to the remote repo
+   - Command git checkout -b branchName<br>
+
+   - **Example:** git checkout -b Canada
+      - The option '-b' in this command enables you to name the branch with a specified name
+      - Now you created a branch named Canada on your local machine
+      - To verify, use the command git branch to see all the branches on your local machine<br>
+
+   - Command git push origin branchName<br>
+
+   - **Example:** git push origin Canada
+      - This commands uploads the branch to the remote repo<br>
 
 <h5 align='right'><a href='#top'>Back to Top</a></h5>
 
@@ -99,4 +138,12 @@ This is just an area to get a better understanding on how to collab with others.
 <h5 align='right'><a href='#top'>Back to Top</a></h5>
 
 
+
+<h4 align='center'>STILL UNDER CONSTRUCTION</h4><br>
+
+<div align='center'>
+	<a href='https://github.com/sudohappy/Playground'>
+		<img src='CL/img/rage.gif' alt='Angry Face' heigh='100' width='100'>
+	</a>
+</div>
 
