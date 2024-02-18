@@ -104,7 +104,9 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
    - **Example:** git push origin Canada
       - This commands uploads the branch to the remote repo<br>
 
-<a align='right' href='#top'>Back to Top</a></h5>
+<div align='right'>
+	<a href='#top'>Back to Top</a></h5>
+</div>
 
 ## **Usage Guidelines**
 
