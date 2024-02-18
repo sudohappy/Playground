@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sudo Happy">
+    <meta name="modiflyor" content="Sunnysun">
+    <meta name="description" content="Simple Javascript Template">
+    <meta name="keywords" content="Javascript, D20rolls">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Dungeons & Dungeons Rolls</title>
+</head>
+<body>
+    <img src="favicon.ico" alt="DnD Image" class="icon">
+    <h1>Dungeons & Dragons Die Roller</h1>
+
+    <!-- Dice div to display rolled number -->
+    <div class="dice" id="d4"><img src="diceface/d4.png" alt="D4"><span class="dice-text">D4</span></div>
+    <div class="dice" id="d6"><img src="diceface/d6.png" alt="D6"><span class="dice-text">D6</span></div>
+    <div class="dice" id="d8"><img src="diceface/d8.png" alt="D8"><span class="dice-text">D8</span></div>
+    <div class="dice" id="d10"><img src="diceface/d10.png" alt="D10"><span class="dice-text">D10</span></div>
+    <div class="dice" id="d12"><img src="diceface/d12.png" alt="D12"><span class="dice-text">D12</span></div>
+    <div class="dice" id="d20"><img src="diceface/d20.png" alt="D20"><span class="dice-text">D20</span></div>
+    <div class="dice" id="d100"><img src="diceface/d100.png" alt="D100"><span class="dice-text">D100</span></div>
+
+    <!-- Buttons to roll different types of dice -->
+    <button onclick="rollDice(4, 'd4')">Roll D4</button>
+    <button onclick="rollDice(6, 'd6')">Roll D6</button>
+    <button onclick="rollDice(8, 'd8')">Roll D8</button>
+    <button onclick="rollDice(10, 'd10')">Roll D10</button>
+    <button onclick="rollDice(12, 'd12')">Roll D12</button>
+    <button onclick="rollDice(20, 'd20')">Roll D20</button>
+    <button onclick="rollPercentile()">Roll D100</button>
+
+    <!-- Paragraph to display the result of the roll -->
+    <p id="result"></p>
+
+    <script>
+        function rollDice(sides, diceId) {
+            var result = Math.floor(Math.random() * sides) + 1;
+            var dice = document.getElementById(diceId);
+            dice.innerText = result; 
+            document.getElementById('result').innerText = 'Rolling a D' + sides + ' and got: ' + result;
+
+            dice.style.animation = 'roll 1s ease-in-out';
+            setTimeout(function() {
+                dice.style.animation = 'none';
+            }, 1000);
+        }
+
+        function rollPercentile() {
+            var ones = Math.floor(Math.random() * 10);
+            var tens = Math.floor(Math.random() * 10);
+            var result = (tens === 0 ? 10 : tens) * 10 + ones;
+            document.getElementById('d100').innerText = result;
+            document.getElementById('result').innerText = 'Rolling Percentile: ' + result;
+
+            var d100 = document.getElementById('d100');
+            d100.style.animation = 'roll 1s ease-in-out'; 
+            setTimeout(function() {
+                d100.style.animation = 'none';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

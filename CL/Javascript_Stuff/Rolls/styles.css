@@ -1,0 +1,66 @@
+/*
+    Author: Sudo Happy
+    Modifyor: Sunnysun
+    Description: CSS styles for Dungeons & Dragons Die Roller
+*/
+/* Styling for the body */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    background-image: url(logo.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: lightslategray;
+}
+
+/* Styling for buttons */
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: firebrick;
+    color: white;
+}
+
+/* Animation keyframes for rolling the dice */
+@keyframes roll {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Styling for the dice div */
+.dice {
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+    margin: 20px;
+    position: relative;
+}
+
+.dice img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.dice-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    pointer-events: none; /* This prevents the text from blocking click events on the dice */
+}
