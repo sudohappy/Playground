@@ -144,7 +144,7 @@ When you see this v
 
 <div align='center'>
    <a href='https://github.com/sudohappy/Playground'>
-      <img src='CL/img/exmaple/commit.jpg' alt='1 commit ahead/behind' height='46' width='397'>
+      <img src='CL/img/example/commit.jpg' alt='1 commit ahead/behind' height='46' width='397'>
    </a>
 </div>
 
