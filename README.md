@@ -140,7 +140,27 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 
 ## **Reminder**
 
-This is just an area to get a better understanding on how to collab with others. Feel free to upload useless files. Don't forget to have fun.
+When you see this v
+
+<div align='center'>
+   <a href='https://github.com/sudohappy/Playground'>
+      <img src='CL/img/exmaple/commit.jpg' alt='1 commit ahead/behind'>
+   </a>
+</div>
+
+**1 commit ahead**: Your branch is ahead of the main branch. This indicates that you've made changes in your branch that are not yet reflected in the main branch. To incorporate these changes into the main branch, you'll need to create a pull request.
+
+**1 commit behind**: Your branch is behind the main branch. This means that there have been updates made to the main branch that are not present in your branch. To bring your branch up to date with the latest changes from the main branch, you can use the following commands:
+- Terminal
+   - git fetch
+   - git pull origin main
+      - :q!
+   - git push origin branchName
+
+> [!IMPORTANT]
+> When using the terminal and executing 'git pull origin main', Git merges the changes from the main branch into your current branch. This operation may open the Vim text editor to prompt you to enter a commit message. Typically, Git provides a default commit message summarizing the merge operation. To proceed with the merge without making any changes to the commit message, you can press the ESC key followed by typing ':q!' to exit Vim and finalize the merge.
+
+This is just an area to get a better understanding on how to use github and collab with others. Feel free to upload useless files. Don't forget to have fun.
 
 
 <div align='right'>
