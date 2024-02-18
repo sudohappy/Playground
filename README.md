@@ -150,9 +150,14 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 **1 commit ahead**: Your branch is ahead of the main branch. This indicates that you've made changes in your branch that are not yet reflected in the main branch. To incorporate these changes into the main branch, you'll need to create a pull request.
 
 **1 commit behind**: Your branch is behind the main branch. This means that there have been updates made to the main branch that are not present in your branch. To bring your branch up to date with the latest changes from the main branch, you can use the following commands:
+
+> [!NOTE]
+> The Vim text editor may not always open during 'git pull origin main'. If it does not open, you can skip the step of pressing ESC and entering ':q!'
+
 - Terminal
    - git fetch
    - git pull origin main
+      - Press ESC key and then enter
       - :q!
    - git push origin branchName
 
