@@ -157,7 +157,7 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 - Terminal
    - git fetch
    - git pull origin main
-      - Press ESC key and then enter
+      - Press ESC key and enter
       - :q!
    - git push origin branchName
 
