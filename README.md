@@ -122,7 +122,10 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 
 - Engage in discussions through issues or other communication channels. Provide constructive feedback and seek clarification when needed.
 
-<h5 align='right'><a href='#top'>Back to Top</a></h5>
+<div align='right'>
+	<a href='#top'>Back to Top</a></h5>
+</div>
+
 
 ## **Resources**
 
@@ -130,15 +133,19 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 
 <a href='https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md'>Adding Emoji's to README file</a>
 
-<h5 align='right'><a href='#top'>Back to Top</a></h5>
+<div align='right'>
+	<a href='#top'>Back to Top</a></h5>
+</div>
+
 
 ## **Reminder**
 
 This is just an area to get a better understanding on how to collab with others. Feel free to upload useless files. Don't forget to have fun.
 
 
-<h5 align='right'><a href='#top'>Back to Top</a></h5>
-
+<div align='right'>
+	<a href='#top'>Back to Top</a></h5>
+</div>
 
 
 <h4 align='center'>STILL UNDER CONSTRUCTION</h4><br>
