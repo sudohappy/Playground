@@ -144,7 +144,7 @@ When you see this v
 
 <div align='center'>
    <a href='https://github.com/sudohappy/Playground'>
-      <img src='CL/img/exmaple/commit.jpg' alt='1 commit ahead/behind'>
+      <img src='CL/img/exmaple/commit.jpg' alt='1 commit ahead/behind' height='46' width='397'>
    </a>
 </div>
 
@@ -172,7 +172,7 @@ This is just an area to get a better understanding on how to use github and coll
 
 <div align='center'>
 	<a href='https://github.com/sudohappy/Playground'>
-		<img src='CL/img/rage.gif' alt='Angry Face' heigh='100' width='100'>
+		<img src='CL/img/rage.gif' alt='Angry Face' height='100' width='100'>
 	</a>
 </div>
 
