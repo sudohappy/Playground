@@ -75,7 +75,8 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 
    - **Example:** git add "JD"
       - Add preps the files for commiting
-      - using . add all changes you've done in the local machine (EX: git add .)
+      - using . add all changes you've done in the local machine
+         - git add .
 
    - Command git commit -m 'Adding new directory to repo'
       - The option -m specify a commit message
@@ -140,20 +141,24 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 
 ## **Reminder**
 
-When you see this v
-
 <div align='center'>
    <a href='https://github.com/sudohappy/Playground'>
-      <img src='CL/img/exmaple/commit.jpg' alt='1 commit ahead/behind'>
+      <img src='CL/img/example/commit.jpg' alt='1 commit ahead/behind' height='46' width='397'>
    </a>
 </div>
+
 
 **1 commit ahead**: Your branch is ahead of the main branch. This indicates that you've made changes in your branch that are not yet reflected in the main branch. To incorporate these changes into the main branch, you'll need to create a pull request.
 
 **1 commit behind**: Your branch is behind the main branch. This means that there have been updates made to the main branch that are not present in your branch. To bring your branch up to date with the latest changes from the main branch, you can use the following commands:
+
+> [!NOTE]
+> The Vim text editor may not always open during 'git pull origin main'. If it does not open, you can skip the step of pressing ESC and entering ':q!'
+
 - Terminal
    - git fetch
    - git pull origin main
+      - Press ESC key and enter
       - :q!
    - git push origin branchName
 
@@ -172,7 +177,7 @@ This is just an area to get a better understanding on how to use github and coll
 
 <div align='center'>
 	<a href='https://github.com/sudohappy/Playground'>
-		<img src='CL/img/rage.gif' alt='Angry Face' heigh='100' width='100'>
+		<img src='CL/img/rage.gif' alt='Angry Face' height='100' width='100'>
 	</a>
 </div>
 
