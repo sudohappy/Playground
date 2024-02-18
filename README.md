@@ -75,7 +75,8 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 
    - **Example:** git add "JD"
       - Add preps the files for commiting
-      - using . add all changes you've done in the local machine (EX: git add .)
+      - using . add all changes you've done in the local machine
+         - git add .
 
    - Command git commit -m 'Adding new directory to repo'
       - The option -m specify a commit message
