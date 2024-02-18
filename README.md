@@ -140,13 +140,12 @@ Please maintain your personal folder and refrain from mkaing changes to others' 
 
 ## **Reminder**
 
-When you see this v
-
 <div align='center'>
    <a href='https://github.com/sudohappy/Playground'>
       <img src='CL/img/example/commit.jpg' alt='1 commit ahead/behind' height='46' width='397'>
    </a>
 </div>
+
 
 **1 commit ahead**: Your branch is ahead of the main branch. This indicates that you've made changes in your branch that are not yet reflected in the main branch. To incorporate these changes into the main branch, you'll need to create a pull request.
 
