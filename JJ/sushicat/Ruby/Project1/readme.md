@@ -22,7 +22,7 @@ How it should look
 ### By creating this basic command-line application Ruby.
 [ ] Learn basic commands of Ruby
 ----
- /\_/\   /\_/\   /\_/\   /\_/\   /\_/\  /\_/\   /\_/\   /\_/\   /\_/\  
+ /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\  
 ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) 
  > ^ <   > ^ <   > ^ <   > ^ <   \_^_/   > ^ <   > ^ <   > ^ <   > ^ <  
 
