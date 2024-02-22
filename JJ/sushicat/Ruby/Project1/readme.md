@@ -5,7 +5,7 @@ How it should look
 ![Project ONE Menu option preview.](https://github.com/sudohappy/Playground/tree/sushicat/JJ/sushicat/img/P1_preview.png)
 -->
 <p align='center'>
-	<a href='https://github.com/sudohappy/Playground/tree/sushicat/JJ/sushicat'>
+	<a href='https://github.com/sudohappy/Playground/tree/sushicat/JJ/sushicat/Ruby/Project1'>
 		<img src='img/P1.preview.png' alt='line-base menu' height="150" width="100">
 	</a>
 </p>
