@@ -6,7 +6,7 @@ How it should look
 -->
 <p align='center'>
 	<a href='https://github.com/sudohappy/Playground/tree/sushicat/JJ/sushicat/Ruby/Project1'>
-		<img src='img/P1.preview.png' alt='line-base menu' height="150" width="100">
+		<img src='img/P1_preview.png' alt='line-base menu' height="150" width="100">
 	</a>
 </p>
 ## Title: Simple Calculator
