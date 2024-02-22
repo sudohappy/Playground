@@ -15,6 +15,6 @@ Listing List
 <br>
 <p align='center'>
 	<a href='https://github.com/sudohappy/Playground/tree/sushicat/JJ/sushicat'>
-		<img src='img/break-time.gif' alt='shiba with text break-time' height="100" width="100">
+		<img src='img/break-time.gif' alt='shiba with text break-time' height="250" width="250">
 	</a>
 </p>
