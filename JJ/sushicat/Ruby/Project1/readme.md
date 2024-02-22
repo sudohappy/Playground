@@ -1,7 +1,7 @@
 # Project ONE
 --------------
 How it should look
-![Project ONE Menu option preview.](/Users/sunnysun/Desktop/Playground/JJ/sushicat/img/P1_preview.png)
+![Project ONE Menu option preview.](https://github.com/sudohappy/Playground/tree/sushicat/JJ/sushicat/img/P1_preview.png)
 
 ## Title: Simple Calculator
 
