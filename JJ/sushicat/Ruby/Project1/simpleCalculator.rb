@@ -18,8 +18,8 @@ def add(a, b)
 
 # ↓↓↓ menu ↓↓↓ 
 loop do
-    print "Calculator Application"
-    print "-" * 21
+    print "Calculator Application\n"
+    puts "-" * 22
 
 # ↓↓↓ options ↓↓↓ 
     print "1. + \n2. - \n3. * \n4. / \n5. Quit \nEnter yout choice: "

@@ -4,10 +4,11 @@
 	</a>
 </p>
 
-Listing List
+ToDo Lists
 -----------------------
 [ ] Create some projects
-	- simple calculator (under construck):traffic_light:
+	- simple calculator [x]
+	- Use Shoe to create simple GUI (under construck):traffic_light:
 [x] Create a signature
 [ ] Learn/pickup HTML/CSS :thinking: (useful):flying_saucer:
 

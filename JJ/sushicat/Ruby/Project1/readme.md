@@ -14,13 +14,13 @@ How it should look
 
 | Features | :white_check_mark: |
 |   :---:  |               ---: |
-| Addition | :x: |
-| Subtraction | :x: |
-| Division | :x: |
-| handle invalid inputs | :x: |
+| Addition | :white_check_mark: |
+| Subtraction | :white_check_mark: |
+| Division | :white_check_mark: |
+| handle invalid inputs | :white_check_mark: |
 
 ### By creating this basic command-line application Ruby.
-[ ] Learn basic commands of Ruby
+[:bowtie:] Learn basic commands of Ruby
 ----
  /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\  
 ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) 
