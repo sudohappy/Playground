@@ -22,11 +22,11 @@ How it should look
 ### By creating this basic command-line application Ruby.
 [ :bowtie: ] Learn basic commands of Ruby
 ----
-<p>
+
  /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\  
 ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) 
- > ^ <   > ^ <   > ^ <   > ^ <   \_^_/   > ^ <   > ^ <   > ^ <   > ^ <  
-</p>
+<p> > ^ <   > ^ <   > ^ <   > ^ <   \_^_/   > ^ <   > ^ <   > ^ <   > ^ <  </p>
+
 
 
    
