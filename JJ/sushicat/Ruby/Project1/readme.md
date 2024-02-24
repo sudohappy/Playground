@@ -20,12 +20,13 @@ How it should look
 | handle invalid inputs | :white_check_mark: |
 
 ### By creating this basic command-line application Ruby.
-[:bowtie:] Learn basic commands of Ruby
+[ :bowtie: ] Learn basic commands of Ruby
 ----
+<p>
  /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\   /\_/\  
 ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) ( o.o ) 
  > ^ <   > ^ <   > ^ <   > ^ <   \_^_/   > ^ <   > ^ <   > ^ <   > ^ <  
-
+</p>
 
 
    
