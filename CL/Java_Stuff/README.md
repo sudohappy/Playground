@@ -1,3 +1,10 @@
+# Quick Rundown
+As I delve into learning Java, I've structured my journey by orgranizing the content in order
+1. DataType.java
+2. ControlFlowStatements.java
+3. MethodDeclaration.java
+4. More to come.
+
 # Reminder
 Do Not Use the Command Prompt to execute the file
 1. Main.java
